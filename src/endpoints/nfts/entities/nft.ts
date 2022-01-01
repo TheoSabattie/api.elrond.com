@@ -1,7 +1,7 @@
-import { ApiProperty } from "@nestjs/swagger";
-import { TokenAssets } from "src/endpoints/tokens/entities/token.assets";
-import { NftMetadata } from "./nft.metadata";
-import { NftType } from "./nft.type";
+import { ApiProperty } from '@nestjs/swagger';
+import { TokenAssets } from './../../tokens/entities/token.assets';
+import { NftMetadata } from './nft.metadata';
+import { NftType } from './nft.type';
 
 export class Nft {
   @ApiProperty()
